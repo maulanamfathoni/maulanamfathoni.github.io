@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracetoo &mdash; Photo Exhibition</title>
+    <link rel="icon" href="images/main-logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--Sidebar-->
+    <div class="site-mobile-menu" id="mySidebar">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close">
+                <span class="fa fa-times" onclick="closeNav()"></span>
+              </div>
+        </div>
+        
+        <div class="site-mobile-menu-body">
+        </div>
+    </div>
+
+     <!--Header-->
+    <header class="site-navbar con-top">
+        <div class="container">
+            <div class="row header-item">
+                <div class="col-pads header-logo">
+                    <a href="index.html"><img class="logo" src="images/main-cus-text.png"></a>
+                </div>
+                <div class="col-pads site-navigation">
+                    <ul class="site-menu js-clone-nav">
+                        <li ><a href="index.html">Home</a></li>
+                        <li class="has-children">
+                          <a href="gallery.html">Gallery</span></a>
+                          <span class="fa fa-chevron-down" ></span>
+                          <ul class="dropdown" id="myDropdown">
+                            <li><a href="#">Animals</a></li>
+                            <li><a href="#">Architecture</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">City</a></li>
+                            <li><a href="#">Nature</a></li>
+                            <li><a href="#">Painted</a></li>
+                            <li><a href="#">People</a></li>
+                            <li><a href="#">Portrait</a></li>
+                            <li><a href="#">Space</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-pads extra-menu" id="main">
+                    <a href="#" class="site-menu">
+                        <span class="fa fa-bars" onclick="openNav()"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--About Content-->
+    <div class="site-content">
+        <div class="container">
+            <div class="row row-center">
+                <div class="title-content">
+                    <h2>About</h2>
+                </div>
+            </div>
+            <div class="row about-content">
+                <div class="col-pads about-image">
+                    <img src="images/exhibition.jpg" alt="Image" class="img-fluid">
+                </div>
+                <div class="col-pads about-desc">
+                    <h3>In Sight and The Future</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus vel tenetur explicabo necessitatibus, ad soluta consectetur illo qui voluptatem. Quis soluta maiores eum. Iste modi voluptatum in repudiandae fugiat suscipit dolorum harum, porro voluptate quis? Alias repudiandae dicta doloremque voluptates soluta repellendus, unde laborum quo nam, ullam facere voluptatem similique.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus vel tenetur explicabo necessitatibus, ad soluta consectetur illo qui voluptatem. Quis soluta maiores eum. Iste modi voluptatum in repudiandae fugiat suscipit dolorum harum, porro voluptate quis? Alias repudiandae dicta doloremque voluptates soluta repellendus, unde laborum quo nam, ullam facere voluptatem similique.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus vel tenetur explicabo necessitatibus, ad soluta consectetur illo qui voluptatem. Quis soluta maiores eum. Iste modi voluptatum in repudiandae fugiat suscipit dolorum harum, porro voluptate quis? Alias repudiandae dicta doloremque voluptates soluta repellendus, unde laborum quo nam, ullam facere voluptatem similique.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor architecto excepturi aliquid minus nostrum dicta labore iusto obcaecati fugit cupiditate.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <div class="footer-extra">
+                <div class="copyr">
+                     <p>© 2020 Gracetoo</p>
+                </div>
+
+                <div class="addmore">
+                    <span href="#" class="fa fa-facebook-official"></span>
+                    <span href="#" class="fa fa-twitter"></span>
+                    <span href="#" class="fa fa-instagram"></span>
+                    <span href="#" class="fa fa-youtube-play"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>

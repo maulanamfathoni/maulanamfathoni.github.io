@@ -1,0 +1,124 @@
+@media(max-width:1824px){
+    .site-mobile-menu{
+        display: none;
+    }
+}
+@media(max-width:1156px){
+    /*Conatct*/
+    .form-up{
+        max-width: 100%;
+    }
+}
+@media(max-width:1024px){
+    .site-mobile-menu{
+        display: unset;
+    }
+    /*Navigation*/
+    .site-navigation .site-menu{
+        display: none;
+    }
+    .extra-menu{
+        width: fit-content;
+        display: block;
+    }
+    .header-item{
+        justify-content: space-between;
+    }
+    /*Main Content*/
+    .image-wap{
+        max-width: 46%;
+        flex: auto;
+    }
+    /*About*/
+    .row-center{
+        display: block;
+    }
+    .about-image{
+        width: auto;
+    }
+    .about-desc{
+        width: auto;
+        margin-top: 30px;
+    }
+    .about-desc h3{
+        text-align: center;
+    }
+    /*Conatct*/
+    .form-contact{
+        margin: 0 25px;
+        width: 100%;
+    }
+    .form-up{
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .form-down{
+        max-width: 100%;
+    }
+    .contact-content{
+        justify-content: unset;
+    }
+    .info-contact{
+        margin: 0 25px;
+    }
+
+    .image-wap-gal{
+        max-width: 100%;
+        flex: 0 0 40%;
+    }
+
+}
+
+@media all and (max-width:766px){
+    .site-mobile-menu{
+        display: unset;
+    }
+    /*Navigation*/
+    .site-navigation .site-menu{
+        display: none;
+    }
+    .extra-menu{
+        display: block;
+    }
+    .header-item{
+        justify-content: space-between;
+    }
+    /*Main Content*/
+    .main-content{
+        justify-content: center;
+    }
+    .image-wap{
+        max-width: 100%;
+        flex: auto;
+    }
+    .first-word h1{
+        width: 30%;
+        font-size: 25px;
+    }
+    /*About*/
+    .row-center{
+        display: block;
+    }
+    .about-image{
+        width: auto;
+    }
+    .about-desc{
+        width: auto;
+        margin-top: 30px;
+    }
+    .about-desc h3{
+        text-align: center;
+    }
+    /*Conatct*/
+    .form-contact{
+        width: 100%;
+    }
+    .form-up{
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .form-down{
+        max-width: 100%;
+    }
+
+}

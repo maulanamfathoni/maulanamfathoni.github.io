@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracetoo &mdash; Photo Exhibition</title>
+    <link rel="icon" href="images/main-logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--Sidebar-->
+    <div class="site-mobile-menu" id="mySidebar">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close">
+                <span class="fa fa-times" onclick="closeNav()"></span>
+              </div>
+        </div>
+        
+        <div class="site-mobile-menu-body">
+        </div>
+    </div>
+
+     <!--Header-->
+    <header class="site-navbar con-top">
+        <div class="container">
+            <div class="row header-item">
+                <div class="col-pads header-logo">
+                    <a href="index.html"><img class="logo" src="images/main-cus-text.png"></a>
+                </div>
+                <div class="col-pads site-navigation">
+                    <ul class="site-menu js-clone-nav">
+                        <li ><a href="index.html">Home</a></li>
+                        <li class="has-children">
+                          <a href="gallery.html">Gallery</span></a>
+                          <span class="fa fa-chevron-down" ></span>
+                          <ul class="dropdown" id="myDropdown">
+                            <li><a href="#">Animals</a></li>
+                            <li><a href="#">Architecture</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">City</a></li>
+                            <li><a href="#">Nature</a></li>
+                            <li><a href="#">Painted</a></li>
+                            <li><a href="#">People</a></li>
+                            <li><a href="#">Portrait</a></li>
+                            <li><a href="#">Space</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-pads extra-menu" id="main">
+                    <a href="#" class="site-menu">
+                        <span class="fa fa-bars" onclick="openNav()"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Contact Content-->
+    <div class="site-content">
+        <div class="container">
+            <div class="row row-center">
+                <div class="title-content">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+            <div class="row contact-content">
+                <div class="col-pads form-contact">
+                    <form action="#">
+
+                        <div class="row form-group">
+                            <div class="col-pads form-up">
+                              <label for="fname">First Name</label>
+                              <input type="text" id="fname" class="form-control">
+                            </div>
+                            <div class="col-pads form-up">
+                              <label for="lname">Last Name</label>
+                              <input type="text" id="lname" class="form-control">
+                            </div>
+                        </div>
+                        
+                        <div class="row form-group">
+                            <div class="col-pads form-down">
+                              <label for="email">Email</label> 
+                              <input type="email" id="email" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row form-group ">
+                            <div class="col-pads form-down">
+                              <label for="subject">Subject</label> 
+                              <input type="subject" id="subject" class="form-control">
+                            </div>
+                        </div>
+            
+                        <div class="row form-group">
+                            <div class="col-pads form-down">
+                              <label for="message">Message</label> 
+                              <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+                            </div>
+                        </div>
+            
+                        <div class="row form-group">
+                            <div class="col-pads form-down">
+                              <input type="submit" value="Send Message" class="btn btn-primary">
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col-pads info-contact">
+                    <div class="mb-3">
+                        <p>Address</p>
+                        <p class="mb-1">Bandung, Indonesia</p>
+          
+                        <p>Phone</p>
+                        <p class="mb-2"><a href="#">+911</a></p>
+          
+                        <p>Email Address</p>
+                        <p class="mb-2"><a href="#">too.grace@gracetoo.com</a></p>
+          
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <div class="footer-extra">
+                <div class="copyr">
+                     <p>© 2020 Gracetoo</p>
+                </div>
+
+                <div class="addmore">
+                    <span href="#" class="fa fa-facebook-official"></span>
+                    <span href="#" class="fa fa-twitter"></span>
+                    <span href="#" class="fa fa-instagram"></span>
+                    <span href="#" class="fa fa-youtube-play"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
